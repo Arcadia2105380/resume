@@ -5,7 +5,7 @@ $(document).ready(function(){
     $("green").click(function(){
           $("h1").css("color", "green");
      });
-    $("red").click(function(){
+    $("div").click(function(){
          $("h1").css("color", "red");
     });
 });
