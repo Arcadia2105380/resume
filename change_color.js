@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("blue").click(function(){
-          $("h1").css("color", "blue");
+          $("p").css("color", "blue");
      });
     $("green").click(function(){
           $("h1").css("color", "green");
