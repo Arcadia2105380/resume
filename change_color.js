@@ -1,15 +1,11 @@
 $(document).ready(function(){
-    $("div").click(function(){
-        val color = this.background;
-        $("h1").css("color", color);
-    });
+    $("blue").click(function(){
+          $("h1").css("color", "blue");
+     });
     $("green").click(function(){
-          $("p").css("color", "green");
+          $("h1").css("color", "green");
      });
-     $("red").click(function(){
-         $("p").css("color", "red");
-     });
-    $("p").click(function(){
-        $(this).hide();
+    $("red").click(function(){
+         $("h1").css("color", "red");
     });
 });
