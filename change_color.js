@@ -1,8 +1,11 @@
 $(document).ready(function(){
-    $("div").click(function(){
+    $("blue").click(function(){
         $("p").css("color", "blue");
     });
-    $("p").click(function(){
-        $(this).hide();
+    $("green").click(function(){
+        $("p").css("color", "green");
+    });
+    $("red").click(function(){
+        $("p").css("color", "red");
     });
 });
