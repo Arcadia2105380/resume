@@ -1,6 +1,7 @@
 $(document).ready(function(){
     $("div").click(function(){
-        $("p").css("color", "blue");
+        val color = this.background;
+        $("p").css("color", color);
     });
     $("green").click(function(){
         $("p").css("color", "green");
